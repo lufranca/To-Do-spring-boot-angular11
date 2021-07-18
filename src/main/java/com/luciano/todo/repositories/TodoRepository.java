@@ -7,5 +7,6 @@ import com.luciano.todo.domain.Todo;
 
 @Repository
 public interface TodoRepository extends JpaRepository<Todo, Integer> {
+	
 
 }
